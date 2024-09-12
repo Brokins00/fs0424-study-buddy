@@ -1,4 +1,4 @@
-package it.epicode.gestionaleLibreria.entities;
+package it.epicode.libreria.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

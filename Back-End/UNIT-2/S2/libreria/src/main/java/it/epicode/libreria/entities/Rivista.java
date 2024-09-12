@@ -1,6 +1,6 @@
-package it.epicode.gestionaleLibreria.entities;
+package it.epicode.libreria.entities;
 
-import it.epicode.gestionaleLibreria.enums.Periodicita;
+import it.epicode.libreria.enums.Periodicita;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
