@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Inserisci la mail" id="email" name="email" />
+            <label for="password">Password</label>
+            <input type="password" placeholder="Inserisci la password" id="password" name="password" />
+            <!-- <button type="button" onclick="registrati()">Registrati</button> -->
+             <button type="button" onclick="login()">Login</button>
+             <button type="button" onclick="getCataloghi()">Cataloghi</button>
+        </div>
+        <div>
+            <input type="text" placeholder="Inserisci codiceISBN" id="codiceISBN" name="codiceISBN" />
+            <input type="text" placeholder="Inserisci titolo" id="titolo" name="titolo" />
+            <input type="number" placeholder="Inserisci anno di pubblicazione" id="annoPubblicazione" name="annoPubblicazione" />
+            <input type="number" placeholder="Inserisci numero pagine" id="numeroPagine" name="numeroPagine" />
+            <input type="text" placeholder="Inserisci autore" id="autore" name="autore" />
+            <input type="text" placeholder="Inserisci genere" id="genere" name="genere" />
+            <button type="button" onclick="inserisci()">Inserisci</button>
+        </div>
+        <script src="assets/script.js"></script>
+    </body>
+</html>
